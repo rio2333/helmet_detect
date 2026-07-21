@@ -1,0 +1,8 @@
+path: E:\hatdetect  # 数据集根路径
+train: train\images  # 训练集图片路径（相对于path）
+val: val\images      # 验证集图片路径（相对于path）
+
+# 目标类别（根据你数据集的实际分类来，通常安全帽识别是2类）
+names:
+  0: hat     # 戴了安全帽
+  1: person  # 没戴安全帽（或者叫 head）
